@@ -27,12 +27,6 @@ ol[role='list'] {
   list-style: none;
 }
 
-/* Set core body defaults */
-body {
-  min-height: 100svh;
-  line-height: 1.5;
-}
-
 /* Set shorter line heights on headings and interactive elements */
 h1, h2, h3, h4,
 button, input, label {
@@ -70,7 +64,6 @@ textarea, select {
   scroll-margin-block: 5ex;
 }
 
-/* Variables */
 :root {
   --white: hsl(0, 0%, 100%);
   --stone-100: hsl(30, 54%, 90%);
@@ -85,11 +78,34 @@ textarea, select {
   --font-weight-normal: 400;
   --font-weight-medium: 600;
   --font-weight-bold: 700;
+  line-height: 1.5;
+  color: var(--stone-900);
 }
 
 body {
+  min-height: 100svh;
   font-family: var(--outfit);
+  padding: 1rem;
+  background-color: var(--stone-100);
 }
+
+main {
+  background-color: var(--white);
+  max-width: 45rem;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+h1, h2 {
+  font-family: var(--young-serif);
+}
+
+#preparation-time {
+  background-color: var(--rose-50);
+}
+
+
 
 
 
