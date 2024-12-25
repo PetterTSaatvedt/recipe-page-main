@@ -67,7 +67,7 @@ picture {
 body {
   min-height: 100svh;
   font-family: var(--outfit);
-  padding: 6rem 1rem;
+  padding: 7rem 1rem;
   background-color: var(--stone-100);
 }
 
